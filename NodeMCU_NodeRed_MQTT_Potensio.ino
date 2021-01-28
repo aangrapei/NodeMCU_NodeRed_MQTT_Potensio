@@ -1,22 +1,21 @@
 /*
  * ==============================NODEMCU MQTT NODE-RED=================================
  * 
- * ===================================REMOTE LED=======================================
+ * ===================================ANALOG INPUT=====================================
  * 
- * ==================================AANG RAPE'I=======================================
+ * ===================================AANG RAPE'I======================================
  * 
- * ==================================27-01-2021========================================
+ * ===================================27-01-2021=======================================
  * 
- * ============================= KONEKSI PIN DAN LED ==============
-`* ANODA LED 1 KE PIN D5 -- DISERI DENGAN RESISTOR 330 OHM -- KATODA LED 1 KE GROUND
-`* ANODA LED 2 KE PIN D6 -- DISERI DENGAN RESISTOR 330 OHM -- KATODA LED 2 KE GROUND
-`* ANODA LED 3 KE PIN D7 -- DISERI DENGAN RESISTOR 330 OHM -- KATODA LED 3 KE GROUND
+ * ============================= KONEKSI PIN DAN POTENSIO ==============
+`* POTENSIO PIN 1 KE NODEMCU --> G
+`* POTENSIO PIN 2 KE NODEMCU --> A0
+`* POTENSIO PIN 1 KE NODEMCU --> 3V
  */
 #include <ESP8266WiFi.h> //Library  ESP8266
 #include <PubSubClient.h> //Library MQTT
 
 #define potPin A0
-#define ledPin D3
 
 int nilai;
 //Setup WIFI
