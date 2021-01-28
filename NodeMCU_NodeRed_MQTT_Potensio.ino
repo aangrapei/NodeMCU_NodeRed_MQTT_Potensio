@@ -20,8 +20,8 @@
 
 int nilai;
 //Setup WIFI
-const char*   ssid        = "MODEM"; //Nama SSID Wifi yang akan diakses!
-const char*   pass        = "tarungjaya"; //Password Wifi
+const char*   ssid        = "XXX"; //Nama SSID Wifi yang akan diakses!
+const char*   pass        = "XXX"; //Password Wifi
 
 //Setup MQTT broker
 const char*   mqtt_server = "broker.hivemq.com"; //Server MQTT/Broker
